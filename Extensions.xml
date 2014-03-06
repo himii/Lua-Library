@@ -1,0 +1,513 @@
+<materialsextension name="dss 8.6" author="Himii" description="edited the old mod by natix4 and added a lot for 8.6" client="8.54;8.6">
+
+
+--------------------grounds-----------------------	
+<brush name="white stone ground" type="ground" server_lookid="10398" z-order="10405">
+		<item id="10398" chance="2500"/>
+		<item id="10399" chance="10"/>
+		<item id="10400" chance="45"/>
+		<item id="10401" chance="45"/>
+		<item id="10402" chance="45"/>
+		<item id="10403" chance="45"/>
+		<item id="10404" chance="45"/>		
+		<border align="outer" id="500"/>       	
+	</brush>
+    		
+	<brush name="bright wooden floor (with border)" type="ground" server_lookid="458" z-order="10405">
+		<item id="458" chance="2500"/>
+		<border id="502" to="none" align="outer"/>
+	</brush>
+		
+	<brush name="brown ground" type="ground" server_lookid="10441" z-order="10447">
+		<item id="10441" chance="150"/>
+		<item id="10442" chance="250"/>
+		<item id="10443" chance="250"/>
+		<item id="10444" chance="250"/>
+		<item id="10445" chance="250"/>
+		<item id="10446" chance="250"/>
+		<item id="10447" chance="250"/>
+		<item id="10448" chance="250"/>	
+		<border align="outer" id="501"/>	
+	</brush>
+		
+	<brush name="dark stone ground" type="ground" server_lookid="10492" z-order="1405">
+		<item id="10492" chance="2500"/>
+		<item id="10493" chance="250"/>
+		<item id="10494" chance="250"/>
+		<item id="10495" chance="150"/>
+		<item id="10496" chance="200"/>
+		<item id="10497" chance="250"/>
+		<item id="10498" chance="200"/>	
+	</brush>
+
+	<brush name="Earth Mountain" type="ground" server_lookid="10164" z-order="4780">
+		<item id="10164" chance="15"/>
+		<border align="inner" to="none" id="504"/>
+		<border align="outer" to="none" id="505"/>
+		<border align="inner" id="504"/>
+		<optional id="506"/>
+	</brush>
+
+	<brush name="Earth Ground(with border)" type="ground" server_lookid="8591" z-order="1470">
+		<item id="8591" chance="20"/>
+		<border align="inner" to="none" id="507"/>
+		<border align="outer" id="120"/>
+	</brush>
+
+	<brush name="mountain top ground border" type="ground" server_lookid="10175" z-order="11447">
+		<item id="10175" chance="10"/>
+	<border align="outer" id="503"/>
+
+	</brush>
+
+	<brush name="black stone floor" type="ground" server_lookid="10766" z-order="1400">
+		<item id="10766" chance="2500"/>
+		<item id="10767" chance="250"/>
+		<item id="10768" chance="250"/>
+		<item id="10769" chance="250"/>
+		<item id="10770" chance="250"/>
+		<item id="10771" chance="250"/>
+		<item id="10772" chance="250"/>
+		<item id="10773" chance="250"/>
+		<item id="10774" chance="250"/>
+	</brush>
+
+	<brush name="Cherry Stone Floor" type="ground" server_lookid="10765" z-order="10754">
+		<item id="10765" chance="2500"/>
+	</brush>
+
+	<brush name="cesious ground" type="ground" server_lookid="10846" z-order="11240">
+		<item id="10846" chance="2500"/>
+		<item id="10847" chance="250"/>
+		<item id="10848" chance="250"/>
+		<item id="10849" chance="250"/>
+		<item id="10850" chance="250"/>
+		<item id="10851" chance="250"/>
+		<item id="10852" chance="250"/>
+		<item id="10853" chance="250"/>
+		<item id="10854" chance="250"/>
+		<item id="10855" chance="250"/>
+		<item id="10856" chance="250"/>
+		<border align="outer" id="508"/>
+		<border align="inner" to="none" id="1"/>
+	</brush>
+
+	<brush name="flakes ground" type="ground" server_lookid="10884" z-order="11240">
+		<item id="10884" chance="2500"/>
+		<border align="outer" id="509"/>
+	</brush>
+
+	<brush name="bright sand" type="ground" server_lookid="10637" z-order="11240">
+		<item id="10637" chance="2500"/>
+		<border align="outer" id="510"/>
+	</brush>
+
+	<brush name="dryness ground" type="ground" server_lookid="10617" z-order="11240">
+		<item id="10617" chance="2500"/>
+		<item id="10618" chance="250"/>
+		<item id="10619" chance="250"/>
+		<item id="10620" chance="250"/>
+		<item id="10621" chance="250"/>
+		<item id="10622" chance="250"/>
+		<item id="10623" chance="250"/>
+		<item id="10624" chance="250"/>		
+		<border align="outer" id="511"/>	
+	</brush>
+
+	<brush name="dryness earth" type="ground" server_lookid="11077" z-order="11240">
+		<item id="11077" chance="2500"/>
+	    <border align="outer" id="513"/>
+	  <border align="outer" to="none" id="512"/>
+	</brush>
+
+   <brush name="muggle ground" type="ground" server_lookid="11145" z-order="11240">
+		<item id="11145" chance="2500"/>
+		<item id="11146" chance="250"/>
+		<item id="11147" chance="250"/>
+		<item id="11148" chance="250"/>
+		<item id="11149" chance="250"/>
+		<item id="11150" chance="250"/>
+		<item id="11151" chance="250"/>
+		<item id="11152" chance="250"/>
+	<border align="outer" id="514"/>
+	</brush>
+    		
+	<brush name="farben ground" type="ground" server_lookid="11154" z-order="11240">
+		<item id="11154" chance="2500"/>
+		<item id="11155" chance="250"/>
+		<item id="11156" chance="250"/>
+		<item id="11157" chance="250"/>
+		<item id="11158" chance="250"/>
+		<item id="11159" chance="250"/>
+	<border align="outer" id="515"/>
+	</brush>
+	
+	<brush name="Canal Water" type="ground" server_lookid="11030" z-order="11240">
+		<item id="11030" chance="2500"/>
+		<border align="outer" id="516"/>
+		</brush>
+
+<brush name="fire shrine" type="doodad" server_lookid="7504" draggable="true" on_blocking="true" thickness="50/100">
+<composite chance="10">
+<tile x="0" y="0"> <item id="7504"/> </tile>
+<tile x="1" y="0"> <item id="7505"/> </tile>
+<tile x="1" y="1"> <item id="7507"/> </tile>
+<tile x="0" y="1"> <item id="7506"/> </tile>
+</composite>
+</brush>
+
+<brush name="energy shrine" type="doodad" server_lookid="7512" draggable="true" on_blocking="true" thickness="50/100">
+<composite chance="10">
+<tile x="0" y="0"> <item id="7512"/> </tile>
+<tile x="1" y="0"> <item id="7513"/> </tile>
+<tile x="1" y="1"> <item id="7515"/> </tile>
+<tile x="0" y="1"> <item id="7514"/> </tile>
+</composite>
+</brush>
+
+<brush name="earth shrine" type="doodad" server_lookid="7516" draggable="true" on_blocking="true" thickness="50/100">
+<composite chance="10">
+<tile x="0" y="0"> <item id="7516"/> </tile>
+<tile x="1" y="0"> <item id="7517"/> </tile>
+<tile x="1" y="1"> <item id="7519"/> </tile>
+<tile x="0" y="1"> <item id="7518"/> </tile>
+</composite>
+</brush>
+
+	<tileset name="Town">
+		<terrain>
+		    <brush name="black stone floor" after="black marble floor"/> 
+			<brush name="white stone ground" after="black stone floor"/>
+			<brush name="bright wooden floor (with border)" after="wooden floor (with border)"/>
+			<brush name="dark stone ground" after="white stone ground"/>               						                
+			<brush name="cesious ground" after="dark stone ground"/>     
+			<brush name="flakes ground" after="cesious ground"/>                    
+			<brush name="muggle ground" after="black stone floor"/>
+			<brush name="farben ground" after="muggle ground"/>
+			<brush name="Cherry Stone Floor" after="farben ground"/>                                                   			
+		</terrain>
+	</tileset>
+	
+	<tileset name="Architecture">
+		<doodad>
+		    <brush name="fire shrine" after="broken yalahar black pillar"/>
+			<brush name="energy shrine" after="fire shrine"/>
+			<brush name="earth shrine" after="energy shrine"/>  	
+		</doodad>
+	</tileset>
+	
+	<tileset name="Nature">
+		<terrain>
+		    <brush name="Earth Mountain" after="mountain"/>
+		    <brush name="Earth Ground(with border)" after="grass (alternate border)"/>            
+			<brush name="mountain top ground border" after="mountain top ground"/> 
+			<brush name="dryness ground" after="dirt"/> 
+			<brush name="dryness earth" after="dryness ground"/> 
+            <brush name="brown ground" after="dryness earth"/>     
+			<brush name="bright sand" after="sand"/>                	
+		</terrain>
+	</tileset>
+	
+	<tileset name="Cave">
+		<terrain>
+				<brush name="Canal Water" after="clear water"/>   
+		</terrain>
+	</tileset>
+
+--------------------------------------------------	
+--------------------grounds-----------------------	
+--------------------------------------------------
+
+
+
+
+----------------------walls-----------------------
+<brush name="dark plaster wall" type="wall" server_lookid="10227">
+		<wall type="horizontal">
+			<item id="10227" chance="500"/>
+			<item id="10229" chance="0"/> 
+			<item id="10235" chance="0"/> 
+			<item id="10245" chance="150"/>
+			<item id="10246" chance="150"/>		
+			<door id="10271" type="normal" open="false"/>
+			<door id="10272" type="normal" open="false"/>
+			<door id="10273" type="normal" open="true"/>
+			<door id="10276" type="locked" open="false"/>
+			<door id="10277" type="locked" open="true"/>
+			<door id="10280" type="quest" open="false"/>
+			<door id="10281" type="quest" open="true"/>
+			<door id="10284" type="magic" open="false"/>
+			<door id="10285" type="magic" open="true"/>
+			<door id="10264" type="hatch_window" open="false"/>
+			<door id="10266" type="hatch_window" open="true"/>
+			<door id="10262" type="window"/>
+		</wall>
+		<wall type="vertical">
+			<item id="10226" chance="400"/>
+			<item id="10231" chance="0"/> 
+			<item id="10233" chance="0"/> 
+			<item id="10233" chance="0"/> 
+			<item id="10247" chance="150"/>
+			<item id="10248" chance="150"/>
+			<door id="10268" type="normal" open="false"/>
+			<door id="10269" type="normal" open="false"/>
+			<door id="10270" type="normal" open="true"/>
+			<door id="10274" type="locked" open="false"/>
+			<door id="10275" type="locked" open="true"/>
+			<door id="10278" type="quest" open="false"/>
+			<door id="10279" type="quest" open="true"/>
+			<door id="10282" type="magic" open="false"/>
+			<door id="10283" type="magic" open="true"/>
+			<door id="10265" type="hatch_window" open="false"/>
+			<door id="10267" type="hatch_window" open="true"/>
+			<door id="10263" type="window"/>
+		</wall>
+		<wall type="corner">
+			<item id="10230" chance="1000"/>
+			<item id="10232" chance="0"/> 
+			<item id="10234" chance="0"/> 
+			<item id="10236" chance="0"/> 
+		</wall>
+		<wall type="pole">
+			<item id="10228" chance="1000"/>
+		</wall>
+	</brush>
+
+		<brush name="damaged dark plaster wall" type="wall" server_lookid="10239">
+		<wall type="horizontal">			
+			<item id="10239" chance="500"/>
+			<item id="10240" chance="500"/>
+			<item id="10241" chance="500"/>
+		</wall>
+		<wall type="vertical">	
+			<item id="10242" chance="400"/>
+			<item id="10243" chance="400"/>
+			<item id="10244" chance="400"/>
+		</wall>
+	<friend name="dark plaster wall" redirect="true"/>
+	</brush>
+
+	<brush name="dark stone wall" type="wall" server_lookid="10250">
+		<wall type="horizontal">
+			<item id="10250" chance="500"/>
+			<item id="10252" chance="0"/> 
+			<item id="10258" chance="0"/> 
+			<item id="10258" chance="100"/>		
+		</wall>
+		<wall type="vertical">
+			<item id="10249" chance="500"/>
+			<item id="10254" chance="0"/> 
+			<item id="10256" chance="0"/> 
+			<item id="10256" chance="100"/>		
+		</wall>
+		<wall type="corner">
+			<item id="10253" chance="1000"/>
+			<item id="10255" chance="0"/> 
+			<item id="10257" chance="0"/> 
+			<item id="10259" chance="0"/> 
+		</wall>
+		<wall type="pole">
+			<item id="10251" chance="1000"/>
+		</wall>
+	</brush>
+
+	<brush name="beton wall" type="wall" server_lookid="10178">
+		<wall type="horizontal">
+			<item id="10178" chance="500"/>
+			<item id="10180" chance="0"/> 
+			<item id="10186" chance="0"/> 
+			<door id="10468" type="normal" open="false"/>
+			<door id="10469" type="normal" open="false"/>
+			<door id="10470" type="normal" open="true"/>
+			<door id="10471" type="locked" open="false"/>
+			<door id="10472" type="locked" open="true"/>
+			<door id="10475" type="quest" open="false"/>
+			<door id="10476" type="quest" open="true"/>
+			<door id="10473" type="magic" open="false"/>
+			<door id="10474" type="magic" open="true"/>
+			<door id="10488" type="hatch_window" open="false"/>
+			<door id="10490" type="hatch_window" open="true"/>
+			<door id="10486" type="window"/>
+		</wall>
+		<wall type="vertical">
+			<item id="10177" chance="400"/>
+			<item id="10182" chance="0"/> 
+			<item id="10184" chance="0"/> 
+			<item id="10184" chance="0"/> 
+			<door id="10477" type="normal" open="false"/>
+			<door id="10478" type="normal" open="false"/>
+			<door id="10479" type="normal" open="true"/>
+			<door id="10480" type="locked" open="false"/>
+			<door id="10481" type="locked" open="true"/>
+			<door id="10484" type="quest" open="false"/>
+			<door id="10485" type="quest" open="true"/>
+			<door id="10482" type="magic" open="false"/>
+			<door id="10483" type="magic" open="true"/>
+			<door id="10489" type="hatch_window" open="false"/>
+			<door id="10491" type="hatch_window" open="true"/>
+			<door id="10487" type="window"/>
+		</wall>
+		<wall type="corner">
+			<item id="10181" chance="1000"/>
+			<item id="10183" chance="0"/> 
+			<item id="10185" chance="0"/> 
+			<item id="10187" chance="0"/> 
+		</wall>
+		<wall type="pole">
+			<item id="10179" chance="1000"/>
+		</wall>
+	</brush>
+
+	<brush name="palisade" type="wall" server_lookid="3510">
+		<wall type="horizontal">
+			<item id="3510" chance="500"/>
+			<item id="3513" chance="0"/> 
+			<item id="3513" chance="0"/> 
+			<item id="3508" chance="150"/>
+			<item id="3509" chance="130"/>
+		</wall>
+		<wall type="vertical">
+			<item id="3518" chance="400"/>
+			<item id="3521" chance="0"/> 
+			<item id="3521" chance="0"/> 
+			<item id="3521" chance="0"/> 
+			<item id="3516" chance="150"/>
+			<item id="3517" chance="130"/>
+		</wall>
+		<wall type="corner">
+			<item id="3530" chance="1000"/>
+			<item id="3530" chance="0"/> 
+			<item id="3530" chance="0"/> 
+			<item id="3530" chance="0"/> 
+		</wall>
+		<wall type="pole">
+			<item id="3511" chance="1000"/>
+		</wall>		
+	</brush>
+
+	<brush name="palisade riling" type="wall" server_lookid="3512">
+		<wall type="horizontal">
+			<item id="3512" chance="500"/>
+			<item id="3512" chance="0"/> 
+			<item id="3512" chance="0"/> 
+		</wall>
+		<wall type="vertical">
+			<item id="3520" chance="400"/>
+			<item id="3520" chance="0"/> 
+			<item id="3520" chance="0"/> 
+			<item id="3520" chance="0"/> 
+		</wall>
+		<wall type="corner">
+			<item id="3531" chance="1000"/>
+			<item id="3531" chance="0"/> 
+			<item id="3531" chance="0"/> 
+			<item id="3531" chance="0"/> 
+		</wall>
+		<wall type="pole">
+			<item id="3532" chance="1000"/>
+		</wall>
+	</brush>
+	
+
+	<brush name="Belgian Wall(modernized)" type="wall" server_lookid="10663">
+		<wall type="horizontal">
+			<item id="10663" chance="500"/>
+			<item id="10665" chance="250"/> 
+			<item id="10686" chance="250"/>
+			<door id="10775" type="normal" open="false"/>
+			<door id="10776" type="normal" open="false"/>
+			<door id="10777" type="normal" open="true"/>
+			<door id="10780" type="quest" open="false"/>
+			<door id="10781" type="quest" open="true"/>
+			<door id="10782" type="magic" open="false"/>
+			<door id="10783" type="magic" open="true"/> 
+			<door id="11065" type="hatch_window" open="false"/>
+			<door id="11066" type="hatch_window" open="true"/>
+			<door id="11066" type="window"/>
+		</wall>
+		<wall type="vertical">
+			<item id="10661" chance="400"/>
+			<item id="10674" chance="200"/> 
+			<item id="10680" chance="200"/>
+			<door id="10784" type="normal" open="false"/>
+			<door id="10785" type="normal" open="false"/>
+			<door id="10786" type="normal" open="true"/>
+			<door id="10789" type="quest" open="false"/>
+			<door id="10790" type="quest" open="true"/>
+			<door id="10791" type="magic" open="false"/>
+			<door id="10792" type="magic" open="true"/>  			
+			<door id="11071" type="hatch_window" open="false"/>
+			<door id="11072" type="hatch_window" open="true"/>
+			<door id="11072" type="window"/>			
+		</wall>
+		<wall type="corner">
+			<item id="10667" chance="1000"/>
+			<item id="10683" chance="500"/> 
+			<item id="10689" chance="500"/> 
+			<item id="10667" chance="500"/> 
+		</wall>
+		<wall type="pole">
+			<item id="11202" chance="1000"/>
+		</wall>
+	</brush>
+
+	<brush name="Belgian Wall" type="wall" server_lookid="10659">
+		<wall type="horizontal">
+			<item id="10659" chance="500"/>
+			<item id="10664" chance="500"/> 
+			<item id="10671" chance="500"/> 
+		</wall>
+		<wall type="vertical">
+			<item id="10681" chance="400"/>
+			<item id="10675" chance="400"/> 
+			<item id="10669" chance="400"/> 			
+		</wall>
+		<wall type="corner">
+			<item id="10660" chance="1000"/>
+			<item id="10678" chance="1000"/> 
+			<item id="10684" chance="1000"/>  
+			<item id="10678" chance="1000"/>				
+    	</wall>
+			<wall type="pole">
+			<item id="10652" chance="1000"/>
+		</wall>
+	<friend name="Belgian Wall(modernized)" redirect="true"/>
+   </brush>
+
+	<brush name="Red Brick Wall" type="wall" server_lookid="10651">
+		<wall type="horizontal">
+			<item id="10651" chance="500"/>
+			<item id="10653" chance="500"/> 
+			<item id="10685" chance="500"/> 
+		</wall>
+		<wall type="vertical">
+			<item id="10650" chance="400"/>
+			<item id="10673" chance="400"/> 
+			<item id="10679" chance="400"/> 			
+		</wall>
+		<wall type="corner">
+			<item id="10654" chance="1000"/>
+			<item id="10676" chance="1000"/> 
+			<item id="10682" chance="1000"/>  
+			<item id="10688" chance="1000"/>				
+    	</wall>
+			<wall type="pole">
+			<item id="11201" chance="1000"/>
+		</wall>
+   </brush>
+
+	<tileset name="Wall">
+		<terrain>
+		    <brush name="dark plaster wall" after="damaged plaster wall"/> 
+			<brush name="damaged dark plaster wall" after="dark plaster wall"/>
+			<brush name="dark stone wall" after="stone wall"/>
+			<brush name="Belgian Wall" after="dark stone wall"/> 
+			<brush name="Belgian Wall(modernized)" after="Belgian Wall"/>
+			<brush name="beton wall" after="damaged dark plaster wall"/>  
+			<brush name="palisade" after="beton wall"/>     
+			<brush name="palisade riling" after="palisade"/>
+			<brush name="Red Brick Wall" after="Belgian Wall(modernized)"/>                             						                                                                                                       			
+		</terrain>
+	</tileset>
+    	
+</materialsextension>
