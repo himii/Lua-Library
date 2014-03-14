@@ -8,6 +8,7 @@ function onUse(cid, item, fromPosition, itemEx, toPosition)
 		setConditionParam(condition, CONDITION_PARAM_SKILL_MELEEPERCENT, 135)
 		setConditionParam(condition, CONDITION_PARAM_BUFF, true)
 		setCombatCondition(combat, condition)
+		doRemoveItem(item.uid, 1)
 
 	function onCastSpell(cid, var)
 		return doCombat(cid, combat, var)
